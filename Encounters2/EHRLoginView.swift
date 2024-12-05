@@ -20,7 +20,7 @@ struct EHRLoginView: View {
             
             VStack {
                 Spacer()
-                Image("medical-record")
+                Image("EHR login")
                     .resizable()
                     .frame(width: 90, height: 90)
                 

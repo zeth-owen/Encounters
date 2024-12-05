@@ -29,9 +29,22 @@
 		C8EBD5102CD9F7DC0015D82E /* Encounters2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Encounters2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C8576BD62D015C630077CCDA /* Exceptions for "Encounters2" folder in "Encounters2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C8EBD4F52CD9F7DA0015D82E /* Encounters2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C8EBD4F82CD9F7DA0015D82E /* Encounters2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C8576BD62D015C630077CCDA /* Exceptions for "Encounters2" folder in "Encounters2" target */,
+			);
 			path = Encounters2;
 			sourceTree = "<group>";
 		};
@@ -398,6 +411,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Encounters2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Encounters2/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to send you notifications when you're near our office.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show user location";
+				INFOPLIST_KEY_NSMainNibFile = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +443,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Encounters2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Encounters2/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to send you notifications when you're near our office.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show user location";
+				INFOPLIST_KEY_NSMainNibFile = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
